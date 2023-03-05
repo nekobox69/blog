@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwhnhn=self.webpackChunkwhnhn||[]).push([[2901],{3869:e=>{e.exports=JSON.parse('{"permalink":"/tech","page":1,"postsPerPage":10,"totalPages":1,"totalCount":6,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

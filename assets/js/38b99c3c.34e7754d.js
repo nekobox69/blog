@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwhnhn=self.webpackChunkwhnhn||[]).push([[6446],{6003:e=>{e.exports=JSON.parse('{"permalink":"/nekobox69/blog/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
