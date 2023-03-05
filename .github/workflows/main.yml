@@ -12,14 +12,15 @@ jobs:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
-      - name: Update Submodule
-        run: git submodule update --init --recursive
       - name: Check Submodule
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
           token: ${{secrets.GIT_TOKEN}}
           submodules: true
+      - name: Update Submodule
+        run: git submodule update --init --recursive
+
       - uses: actions/setup-node@v3
         with:
           node-version: 18
