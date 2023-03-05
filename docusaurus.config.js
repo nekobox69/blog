@@ -128,7 +128,7 @@ const config = {
               },
               {
                 label: '日本历史',
-                to: '/docs/rekishi ',
+                to: '/docs/rekishi',
               },
             ],
           },
