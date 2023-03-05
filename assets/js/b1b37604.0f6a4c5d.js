@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwhnhn=self.webpackChunkwhnhn||[]).push([[3887],{925:e=>{e.exports=JSON.parse('{"label":"jvm","permalink":"/blog/tech/tags/jvm","allTagsPath":"/blog/tech/tags","count":1}')}}]);
