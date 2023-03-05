@@ -1,3 +1,6 @@
 [submodule "tech"]
 	path = tech
 	url = git@github.com:nekobox69/tech.git
+[submodule "docs/rekishi"]
+	path = docs/rekishi
+	url = git@github.com:nekobox69/rekishi.git

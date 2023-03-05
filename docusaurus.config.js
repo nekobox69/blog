@@ -24,6 +24,9 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    mermaid: true,
+  },
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -32,7 +35,7 @@ const config = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
-
+  themes: ['@docusaurus/theme-mermaid'],
   plugins: [
     [
       '@docusaurus/plugin-content-blog',
@@ -101,6 +104,12 @@ const config = {
           // { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/tech', label: '技术', position: 'left' },
           {
+            type: 'doc',
+            docId: 'rekishi/README',
+            position: 'left',
+            label: '日本历史',
+          },
+          {
             href: 'https://github.com/nekobox69',
             label: 'GitHub',
             position: 'right',
@@ -111,11 +120,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: '技术',
+            title: '分类',
             items: [
               {
                 label: '技术',
                 to: '/tech',
+              },
+              {
+                label: '日本历史',
+                to: '/docs/rekishi ',
               },
             ],
           },
@@ -123,16 +136,11 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '公众号：吾辈的箱庭',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: '知乎',
+                href: 'https://www.zhihu.com/people/ao-bo-zhen',
               },
             ],
           },
@@ -140,12 +148,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/nekobox69',
               },
             ],
           },
