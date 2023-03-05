@@ -63,15 +63,15 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -92,16 +92,16 @@ const config = {
           src: 'img/logo.jpeg',
         },
         items: [
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
+          // { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/tech', label: '技术', position: 'left' },
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/tech', label: 'Tech', position: 'left' },
-          {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/nekobox69',
             label: 'GitHub',
             position: 'right',
           },
@@ -111,11 +111,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '技术',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '技术',
+                to: '/tech',
               },
             ],
           },
