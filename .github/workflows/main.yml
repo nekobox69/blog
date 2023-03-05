@@ -19,7 +19,7 @@ jobs:
           token: ${{secrets.GIT_TOKEN}}
           submodules: true
       - name: Update Submodule
-        run: git submodule update --init --recursive
+        run: git submodule update --remote
 
       - uses: actions/setup-node@v3
         with:
