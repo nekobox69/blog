@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwhnhn=self.webpackChunkwhnhn||[]).push([[8469],{1954:s=>{s.exports=JSON.parse('{"label":"spring","permalink":"/blog/tech/tags/spring","allTagsPath":"/blog/tech/tags","count":1}')}}]);
