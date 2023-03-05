@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwhnhn=self.webpackChunkwhnhn||[]).push([[3762],{2234:a=>{a.exports=JSON.parse('{"label":"golang","permalink":"/blog/tech/tags/golang","allTagsPath":"/blog/tech/tags","count":3}')}}]);

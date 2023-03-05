@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwhnhn=self.webpackChunkwhnhn||[]).push([[1622],{35239:e=>{e.exports=JSON.parse('{"label":"\u538b\u7f29","permalink":"/blog/tech/tags/\u538b\u7f29","allTagsPath":"/blog/tech/tags","count":1}')}}]);
