@@ -137,6 +137,7 @@ const config = {
             items: [
               {
                 label: '公众号：吾辈的箱庭',
+                href: '#',
               },
               {
                 label: '知乎',
