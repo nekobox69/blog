@@ -53,6 +53,9 @@ const config = {
          * 相对于站点目录的文件系统路径。
          */
         path: './tech',
+        blogSidebarCount: 'ALL',
+        blogSidebarTitle: '所有博文',
+        postsPerPage: 10,
       },
     ],
   ],
